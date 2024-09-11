@@ -1,2 +1,1 @@
-venezolano = "wekito"
-print(venezolano)
+print("HOLA")
