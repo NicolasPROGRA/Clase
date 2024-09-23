@@ -1,6 +1,6 @@
 class libro:
-    def __init__(selft,isbn,titulo,id_autor,n_copias):
-        selft.__isbn = isbn,
-        selft.__titulo = isbn,
-        selft.__id_autor= id_autor, 
-        selft.__n_copias= n_copias
+    def __init__(self,isbn,titulo,id_autor,n_copias):
+        self.__isbn = isbn,
+        self.__titulo = titulo,
+        self.__id_autor= id_autor, 
+        self.__n_copias= n_copias

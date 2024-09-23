@@ -1,10 +1,10 @@
 class usuario:
-    def  __init__(selft,nombre,n_identificador,correo,celular,habilitado):
-        selft.__nombre=nombre,
-        selft.__n_identificador=n_identificador,
-        selft.__correo=correo,
-        selft.__celular=celular,
-        selft.__habilitado= habilitado
+    def  __init__(self,nombre,n_identificador,correo,celular,habilitado):
+        self.__nombre=nombre,
+        self.__n_identificador=n_identificador,
+        self.__correo=correo,
+        self.__celular=celular,
+        self.__habilitado= habilitado
         
         
         
