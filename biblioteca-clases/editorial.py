@@ -1,6 +1,6 @@
 import re
-class editorial:
-    def __init__(self,id_editorial,nombre_editorial,numero_contacto,correo_editorial):
+class editorial: #objeto
+    def __init__(self,id_editorial,nombre_editorial,numero_contacto,correo_editorial):#Encapsulamiento
         self.id_editorial=id_editorial
         self.nombre_editorial= nombre_editorial
         self.numero_contacto= numero_contacto
