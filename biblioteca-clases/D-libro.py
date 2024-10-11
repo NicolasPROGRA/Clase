@@ -1,7 +1,7 @@
 import libro
 import editorial
 
-class D_libro:
+class D_libro(editorial):
     def __init__(self,n_paginas,isbn,id_editorial,cantidad_libros,fecha_inicio,cantidad_disponible):
         libro.__init__(isbn)
         editorial.__init__(id_editorial)

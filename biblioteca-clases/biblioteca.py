@@ -1,5 +1,5 @@
-import libro 
-class biblioteca: #OBJETO 
+import libro
+class biblioteca(libro): #OBJETO 
     def __init__(self,nombre,direccion,telefono):  # ENCAPSULAMIENTO 
         self.nombre =nombre
         self.direccion = direccion

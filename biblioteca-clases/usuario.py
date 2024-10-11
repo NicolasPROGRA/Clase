@@ -1,5 +1,5 @@
 
-import tipo_usuario 
+import tipo_usuario
 import re
 
 class usuario(tipo_usuario):
